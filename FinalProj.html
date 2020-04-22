@@ -1,0 +1,33 @@
+<DOCTYPE html>
+<html lang = "en">
+	<head>
+	<title>Basketball</title>
+	<meta charset = "utf-8">
+	<script src = "game.js"></script>
+	</head>
+	
+	<body style = "font-family:Arial;" bgcolor = "#e6e6e6" onload = "setup()">
+	<h1><pre style = "font-family:Arial; font-size:60px">         <em><b>Speed Basketball</b></em></pre></h1>
+	<canvas id = "myCanvas" width = "800px" height = "800px" style = "border:1px solid black;"></canvas>
+	<h4 id = "xy"></h4>
+	<h1 id = "trick"></h1>
+	<h2 id = "timer"></h2>
+	<h2 id = "pointcounter"></h2>
+	<h2 id = "highscore"></h2>
+	<h3><pre style = "font-size: 25px"><i>Rules:</i>
+	Click away from the ball <b>(Only click once at a time!)</b>
+	
+	Ball direction is opposite where the mouse is
+	
+	Do trick shots! Bounce off the left side of the canvas for bonus points
+	
+	Timer starts at 5 points or more! you have 24 seconds to make the next basket(Sorry no buzzer beaters)
+	
+	Gain more time as you make baskets, trick shots add additional time
+	
+	If the ball touches the ground or the timer reaches 0: new game
+	
+	(Some shots can only be made by bouncing)
+	</pre>
+	</body>
+</html>
